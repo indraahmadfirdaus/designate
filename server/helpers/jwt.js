@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const JWT_SECRET = process.env.JWT_KEY
+const JWT_SECRET = 'password'
 
 // used in login
 function generateToken(body) {
